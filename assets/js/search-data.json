@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Python Fundimentals",
-            "content": "",
-            "url": "https://iconicshark3.github.io/ColinMills/2022/08/23/Python-Fundimentals.html",
-            "relUrl": "/2022/08/23/Python-Fundimentals.html",
+            "title": "Python Anatomy",
+            "content": "Python Introduction: . print (&quot;Hello World&quot;) . Hello World . Python Variables Introcuction . message = input() print (message) . Hello World . def request(prompt): print(&quot;Question &quot;+prompt) msg = input() print(&quot;Answer&quot;+msg) request(&quot;Why?&quot;) . Question Why? Answeryes . testing .",
+            "url": "https://iconicshark3.github.io/ColinMills/jupyter/2022/08/23/Python-Fundimentals.html",
+            "relUrl": "/jupyter/2022/08/23/Python-Fundimentals.html",
             "date": " • Aug 23, 2022"
         }
         
