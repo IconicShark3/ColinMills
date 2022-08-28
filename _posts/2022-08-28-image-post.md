@@ -1,2 +1,3 @@
-Image Test
-![](postimages/testing.png)
+# Image Test
+![]({{site.baseurl}}postimages/testing.png)
+WORK
