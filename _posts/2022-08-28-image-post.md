@@ -1,2 +1,2 @@
 Image Test
-![](images/testing.png)
+![](postimages/testing.png)
