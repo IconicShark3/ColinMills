@@ -1,3 +1,3 @@
 # Image Test
-![]({{site.baseurl}}images/testing.png)
+![]({{site.baseurl}}/images/testing.png)
 WORK
