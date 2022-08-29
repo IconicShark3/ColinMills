@@ -1,4 +1,100 @@
-<p>Using conditional statement to create a project directory and project
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Bash Check Outputs | Colin Mills</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Bash Check Outputs" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Using conditional statement to create a project directory and project Directory /home/colinmills/vscode exists. Directory /home/colinmills/vscode/APCSP exists." />
+<meta property="og:description" content="Using conditional statement to create a project directory and project Directory /home/colinmills/vscode exists. Directory /home/colinmills/vscode/APCSP exists." />
+<link rel="canonical" href="https://iconicshark3.github.io/ColinMills/2022/08/28/bash-outputs.html" />
+<meta property="og:url" content="https://iconicshark3.github.io/ColinMills/2022/08/28/bash-outputs.html" />
+<meta property="og:site_name" content="Colin Mills" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-08-28T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Bash Check Outputs" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-08-28T00:00:00-05:00","datePublished":"2022-08-28T00:00:00-05:00","description":"Using conditional statement to create a project directory and project Directory /home/colinmills/vscode exists. Directory /home/colinmills/vscode/APCSP exists.","headline":"Bash Check Outputs","mainEntityOfPage":{"@type":"WebPage","@id":"https://iconicshark3.github.io/ColinMills/2022/08/28/bash-outputs.html"},"url":"https://iconicshark3.github.io/ColinMills/2022/08/28/bash-outputs.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/ColinMills/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://iconicshark3.github.io/ColinMills/feed.xml" title="Colin Mills" /><link rel="shortcut icon" type="image/x-icon" href="/ColinMills/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/ColinMills/">Colin Mills</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/ColinMills/about/">About Me</a><a class="page-link" href="/ColinMills/notes/">Notes!</a><a class="page-link" href="/ColinMills/search/">Search</a><a class="page-link" href="/ColinMills/categories/">Tags</a><a class="page-link" href="/ColinMills/vocabulary/">Vocabulary!</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Bash Check Outputs</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-08-28T00:00:00-05:00" itemprop="datePublished">
+        Aug 28, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h1"><a href="#my-blog">My Blog</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#what-to-do-next">What To Do Next?</a></li>
+</ul>
+</li>
+</ul><p>Using conditional statement to create a project directory and project
 Directory /home/colinmills/vscode exists.
 Directory /home/colinmills/vscode/APCSP exists.</p>
 
@@ -6,49 +102,49 @@ Directory /home/colinmills/vscode/APCSP exists.</p>
 /home/colinmills/vscode/APCSP</p>
 
 <p>list top level or root of files with project pulled from github
-[0m[01;32mGemfile[0m    [01;34m_action_files[0m    [01;34m_layouts[0m    [01;34m_posts[0m  [01;32mdocker-compose.yml[0m
-LICENSE    _config.yml      [01;34m_notebooks[0m  [01;34m_sass[0m   [01;34mimages[0m
-[01;32mMakefile[0m   [01;34m_fastpages_docs[0m  [01;34m_pages[0m      [01;34m_word[0m   index.html
-[01;32mREADME.md[0m  [01;34m_includes[0m        [01;34m_plugins[0m    [01;34massets[0m  [01;34mpython[0m</p>
+[0m[01;32mGemfile[0m    [01;34m_action_files[0m    [01;34m_layouts[0m    [01;34m_posts[0m  [01;32mdocker-compose.yml[0m
+LICENSE    _config.yml      [01;34m_notebooks[0m  [01;34m_sass[0m   [01;34mimages[0m
+[01;32mMakefile[0m   [01;34m_fastpages_docs[0m  [01;34m_pages[0m      [01;34m_word[0m   index.html
+[01;32mREADME.md[0m  [01;34m_includes[0m        [01;34m_plugins[0m    [01;34massets[0m  [01;34mpython[0m</p>
 
 <p>list again with hidden files pulled from github
-[0m[01;34m.[0m                   .gitignore  [01;34m_action_files[0m    [01;34m_pages[0m    [01;32mdocker-compose.yml[0m
-[01;34m..[0m                  [01;34m.vscode[0m     _config.yml      [01;34m_plugins[0m  [01;34mimages[0m
-.devcontainer.json  [01;32mGemfile[0m     [01;34m_fastpages_docs[0m  [01;34m_posts[0m    index.html
-[01;34m.git[0m                LICENSE     [01;34m_includes[0m        [01;34m_sass[0m     [01;34mpython[0m
-.gitattributes      [01;32mMakefile[0m    [01;34m_layouts[0m         [01;34m_word[0m
-[01;34m.github[0m             [01;32mREADME.md[0m   [01;34m_notebooks[0m       [01;34massets[0m</p>
+[0m[01;34m.[0m                   .gitignore  [01;34m_action_files[0m    [01;34m_pages[0m    [01;32mdocker-compose.yml[0m
+[01;34m..[0m                  [01;34m.vscode[0m     _config.yml      [01;34m_plugins[0m  [01;34mimages[0m
+.devcontainer.json  [01;32mGemfile[0m     [01;34m_fastpages_docs[0m  [01;34m_posts[0m    index.html
+[01;34m.git[0m                LICENSE     [01;34m_includes[0m        [01;34m_sass[0m     [01;34mpython[0m
+.gitattributes      [01;32mMakefile[0m    [01;34m_layouts[0m         [01;34m_word[0m
+[01;34m.github[0m             [01;32mREADME.md[0m   [01;34m_notebooks[0m       [01;34massets[0m</p>
 
 <p>list all files in long format
 total 120
-drwxr-xr-x 18 colinmills colinmills  4096 Aug 18 13:01 [0m[01;34m.[0m
-drwxr-xr-x  4 colinmills colinmills  4096 Aug 22 18:08 [01;34m..[0m
+drwxr-xr-x 18 colinmills colinmills  4096 Aug 18 13:01 [0m[01;34m.[0m
+drwxr-xr-x  4 colinmills colinmills  4096 Aug 22 18:08 [01;34m..[0m
 -rw-r–r–  1 colinmills colinmills   420 Aug 18 13:01 .devcontainer.json
-drwxr-xr-x  8 colinmills colinmills  4096 Aug 28 15:27 [01;34m.git[0m
+drwxr-xr-x  8 colinmills colinmills  4096 Aug 28 15:27 [01;34m.git[0m
 -rw-r–r–  1 colinmills colinmills    84 Aug 18 13:01 .gitattributes
-drwxr-xr-x  4 colinmills colinmills  4096 Aug 18 13:01 [01;34m.github[0m
+drwxr-xr-x  4 colinmills colinmills  4096 Aug 18 13:01 [01;34m.github[0m
 -rw-r–r–  1 colinmills colinmills   917 Aug 18 13:01 .gitignore
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 22 18:47 [01;34m.vscode[0m
--rwxr-xr-x  1 colinmills colinmills  1304 Aug 18 13:01 [01;32mGemfile[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 22 18:47 [01;34m.vscode[0m
+-rwxr-xr-x  1 colinmills colinmills  1304 Aug 18 13:01 [01;32mGemfile[0m
 -rw-r–r–  1 colinmills colinmills 11351 Aug 18 13:01 LICENSE
--rwxr-xr-x  1 colinmills colinmills  1422 Aug 18 13:01 [01;32mMakefile[0m
--rwxr-xr-x  1 colinmills colinmills  3614 Aug 18 13:01 [01;32mREADME.md[0m
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_action_files[0m
+-rwxr-xr-x  1 colinmills colinmills  1422 Aug 18 13:01 [01;32mMakefile[0m
+-rwxr-xr-x  1 colinmills colinmills  3614 Aug 18 13:01 [01;32mREADME.md[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_action_files[0m
 -rw-r–r–  1 colinmills colinmills  3716 Aug 18 13:01 _config.yml
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_fastpages_docs[0m
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_includes[0m
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_layouts[0m
-drwxr-xr-x  4 colinmills colinmills  4096 Aug 28 15:27 [01;34m_notebooks[0m
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 28 15:24 [01;34m_pages[0m
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_plugins[0m
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 28 15:24 [01;34m_posts[0m
-drwxr-xr-x  3 colinmills colinmills  4096 Aug 18 13:01 [01;34m_sass[0m
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_word[0m
-drwxr-xr-x  4 colinmills colinmills  4096 Aug 18 13:01 [01;34massets[0m
--rwxr-xr-x  1 colinmills colinmills  1136 Aug 18 13:01 [01;32mdocker-compose.yml[0m
-drwxr-xr-x  5 colinmills colinmills  4096 Aug 28 15:24 [01;34mimages[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_fastpages_docs[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_includes[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_layouts[0m
+drwxr-xr-x  4 colinmills colinmills  4096 Aug 28 15:27 [01;34m_notebooks[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 28 15:24 [01;34m_pages[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_plugins[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 28 15:24 [01;34m_posts[0m
+drwxr-xr-x  3 colinmills colinmills  4096 Aug 18 13:01 [01;34m_sass[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34m_word[0m
+drwxr-xr-x  4 colinmills colinmills  4096 Aug 18 13:01 [01;34massets[0m
+-rwxr-xr-x  1 colinmills colinmills  1136 Aug 18 13:01 [01;32mdocker-compose.yml[0m
+drwxr-xr-x  5 colinmills colinmills  4096 Aug 28 15:24 [01;34mimages[0m
 -rw-r–r–  1 colinmills colinmills  1061 Aug 18 13:01 index.html
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34mpython[0m</p>
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:01 [01;34mpython[0m</p>
 
 <p>Look for posts
 /home/colinmills/vscode/APCSP/_posts
@@ -105,17 +201,19 @@ total 100
 <p>Navigate to project, then navigate to area wwhere files were cloned
 show the contents of README.md</p>
 
-<p><img src="https://github.com/nighthawkcoders/APCSP/workflows/CI/badge.svg" alt="" /> 
-<img src="https://github.com/nighthawkcoders/APCSP/workflows/GH-Pages%20Status/badge.svg" alt="" /> 
-<a href="https://github.com/fastai/fastpages"><img src="https://img.shields.io/static/v1?label=fastai&amp;message=fastpages&amp;color=57aeac&amp;labelColor=black&amp;style=flat&amp;logo=data:image/png;base64,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" alt="" /></a></p>
+<p><img src="https://github.com/nighthawkcoders/APCSP/workflows/CI/badge.svg" alt=""> 
+<img src="https://github.com/nighthawkcoders/APCSP/workflows/GH-Pages%20Status/badge.svg" alt=""> 
+<a href="https://github.com/fastai/fastpages"><img src="https://img.shields.io/static/v1?label=fastai&amp;message=fastpages&amp;color=57aeac&amp;labelColor=black&amp;style=flat&amp;logo=data:image/png;base64,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" alt=""></a></p>
 
 <p>https://nighthawkcoders.github.io/APCSP/</p>
 
-<h1 id="my-blog">My Blog</h1>
+<h1 id="my-blog">
+<a class="anchor" href="#my-blog" aria-hidden="true"><span class="octicon octicon-link"></span></a>My Blog</h1>
 
 <p><em>powered by <a href="https://github.com/fastai/fastpages">fastpages</a></em></p>
 
-<h2 id="what-to-do-next">What To Do Next?</h2>
+<h2 id="what-to-do-next">
+<a class="anchor" href="#what-to-do-next" aria-hidden="true"><span class="octicon octicon-link"></span></a>What To Do Next?</h2>
 
 <p>Great!  You have setup your repo.  Now its time to start writing content.  Some helpful links:</p>
 
@@ -194,16 +292,16 @@ total 68
 -rw-r–r–  1 colinmills colinmills   353 Aug 28 17:06 FETCH_HEAD
 -rw-r–r–  1 colinmills colinmills    23 Aug 18 13:01 HEAD
 -rw-r–r–  1 colinmills colinmills    41 Aug 28 15:24 ORIG_HEAD
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:00 [0m[01;34mbranches[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:00 [0m[01;34mbranches[0m
 -rw-r–r–  1 colinmills colinmills   269 Aug 18 13:01 config
 -rw-r–r–  1 colinmills colinmills    73 Aug 18 13:00 description
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:00 [01;34mhooks[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:00 [01;34mhooks[0m
 -rw-r–r–  1 colinmills colinmills 20293 Aug 28 15:27 index
-drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:00 [01;34minfo[0m
-drwxr-xr-x  3 colinmills colinmills  4096 Aug 18 13:01 [01;34mlogs[0m
-drwxr-xr-x 74 colinmills colinmills  4096 Aug 26 11:30 [01;34mobjects[0m
+drwxr-xr-x  2 colinmills colinmills  4096 Aug 18 13:00 [01;34minfo[0m
+drwxr-xr-x  3 colinmills colinmills  4096 Aug 18 13:01 [01;34mlogs[0m
+drwxr-xr-x 74 colinmills colinmills  4096 Aug 26 11:30 [01;34mobjects[0m
 -rw-r–r–  1 colinmills colinmills   271 Aug 18 13:01 packed-refs
-drwxr-xr-x  5 colinmills colinmills  4096 Aug 18 13:01 [01;34mrefs[0m</p>
+drwxr-xr-x  5 colinmills colinmills  4096 Aug 18 13:01 [01;34mrefs[0m</p>
 
 <p>look at config file
 [core]
@@ -227,3 +325,37 @@ drwxr-xr-x  5 colinmills colinmills  4096 Aug 18 13:01 [01;34mrefs[0m</p>
 <p>command ‘dless’ from deb phast (1.5+dfsg-1)</p>
 
 <p>Try: sudo apt install <deb name=""></deb></p>
+
+  </div><a class="u-url" href="/ColinMills/2022/08/28/bash-outputs.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/ColinMills/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/ColinMills/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/ColinMills/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>I have no ide what to write here, but the tutorial told me to change the default text.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/IconicShark3" target="_blank" title="IconicShark3"><svg class="svg-icon grey"><use xlink:href="/ColinMills/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.instagram.com/toomanycolinmills" target="_blank" title="toomanycolinmills"><svg class="svg-icon grey"><use xlink:href="/ColinMills/assets/minima-social-icons.svg#instagram"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
