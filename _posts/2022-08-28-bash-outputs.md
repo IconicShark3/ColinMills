@@ -1,3 +1,9 @@
+---
+toc: true
+layout: post
+categories:
+title: Bash Check Outputs
+---
 Using conditional statement to create a project directory and project
 Directory /home/colinmills/vscode exists.
 Directory /home/colinmills/vscode/APCSP exists.
