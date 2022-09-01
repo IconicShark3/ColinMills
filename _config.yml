@@ -102,6 +102,8 @@ paginate: 15
 paginate_path: /page:num/
 
 remote_theme: jekyll/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
 
 titles_from_headings:
   enabled:     true
