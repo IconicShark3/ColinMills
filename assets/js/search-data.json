@@ -202,10 +202,7 @@
   
 
   
-  
-
-  
-      ,"page13": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://iconicshark3.github.io/ColinMills/robots.txt",
