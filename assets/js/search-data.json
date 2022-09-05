@@ -204,6 +204,14 @@
   
 
   
+      ,"page9": {
+          "title": "Weekly Work",
+          "content": "# Week Number # Assignments # Hacks . ## Wk I |   | | . ## Wk II |   |   | . ## Wk III |   |   | .",
+          "url": "https://iconicshark3.github.io/ColinMills/weekly/",
+          "relUrl": "/weekly/",
+          "date": ""
+      }
+      
   
 
   
@@ -213,7 +221,10 @@
   
 
   
-      ,"page12": {
+  
+
+  
+      ,"page13": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://iconicshark3.github.io/ColinMills/robots.txt",
