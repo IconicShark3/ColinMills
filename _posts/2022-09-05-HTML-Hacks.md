@@ -7,7 +7,7 @@ title: Wk2 HTML hacks
 ---
 ## Remote Theme
 
-![]({{site.baseurl}}/images/2022-09-01.png"remotetheme")
+![]({{site.baseurl}}/images/2022-09-01.png)
 
 ## Table Usage
 
