@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: IMAGE
-categories: [markdown]
+categories: [markdown], [Informal]
 title: An Image Post
 ---
 # I WILL
