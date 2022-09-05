@@ -3,8 +3,8 @@ layout: page
 title: Weekly Work
 permalink: /weekly/
 ---
-|<h1>Week Number</h1>|<h1>Assignments</h1>|<h1>Hacks</h1>|
+|Week Number|Assignments|Hacks|
 |---|---|---|
-|<h2>Wk I</h2>||![]()|
-|<h2>Wk II</h2>|||
-|<h2>Wk III</h2>|||
+|Wk I|[Assignment](https://www.google.com)|[Hacks Wk1](https://www.google.com)|
+|Wk II|[Assignment](https://www.google.com)|[Hacks Wk2](https://www.google.com)|
+|Wk III|[Assingment](https://www.google.com)|[Hacks Wk3](https://www.google.com)|
