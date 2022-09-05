@@ -16,4 +16,4 @@ title: Wk2 Dictionary hacks
 
 ## Creative: Print dictionary out of order
 
-[]()
+[Notebook](https://iconicshark3.github.io/ColinMills/jupyter/2022/08/30/Python-Lists-Et-Cetera.html)
