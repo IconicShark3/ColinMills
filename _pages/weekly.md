@@ -5,6 +5,6 @@ permalink: /weekly/
 ---
 |Week Number|Assignments|Hacks|
 |---|---|---|
-|Wk I|[Assignment](https://www.google.com)|[Hacks Wk1](https://www.google.com)|
-|Wk II|[Assignment](https://www.google.com)|[Hacks Wk2](https://www.google.com)|
-|Wk III|[Assingment](https://www.google.com)|[Hacks Wk3](https://www.google.com)|
+|Wk 0|[Assignment]()|[Hacks Wk1](https://github.com/IconicShark3/ColinMills/issues/2)|
+|Wk I|[Assignment]()|[Hacks Wk2](https://github.com/IconicShark3/ColinMills/issues/3)|
+|Wk II|[Assingment]()|[Hacks Wk3]()|
