@@ -206,7 +206,7 @@
   
       ,"page9": {
           "title": "Weekly Work",
-          "content": "&lt;h1&gt;Week Number&lt;/h1&gt; &lt;h1&gt;Assignments&lt;/h1&gt; &lt;h1&gt;Hacks&lt;/h1&gt; . &lt;h2&gt;Wk I&lt;/h2&gt; |   | | . &lt;h2&gt;Wk II&lt;/h2&gt; |   |   | . &lt;h2&gt;Wk III&lt;/h2&gt; |   |   | .",
+          "content": "Week Number Assignments Hacks . Wk I | Assignment | Hacks Wk1 | . Wk II | Assignment | Hacks Wk2 | . Wk III | Assingment | Hacks Wk3 | .",
           "url": "https://iconicshark3.github.io/ColinMills/weekly/",
           "relUrl": "/weekly/",
           "date": ""
