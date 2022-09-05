@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://iconicshark3.github.io/ColinMills/markdown/2020/01/14/test-markdown-post.html</loc>
+<loc>https://iconicshark3.github.io/ColinMills/markdown/informal/2020/01/14/test-markdown-post.html</loc>
 <lastmod>2020-01-14T00:00:00-06:00</lastmod>
 </url>
 <url>
@@ -17,7 +17,7 @@
 <lastmod>2022-08-22T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://iconicshark3.github.io/ColinMills/markdown/2022/08/22/test123.html</loc>
+<loc>https://iconicshark3.github.io/ColinMills/markdown/informal/2022/08/22/test123.html</loc>
 <lastmod>2022-08-22T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -37,7 +37,7 @@
 <lastmod>2022-08-26T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://iconicshark3.github.io/ColinMills/markdown/2022/08/28/image-post.html</loc>
+<loc>https://iconicshark3.github.io/ColinMills/markdown/informal/2022/08/28/image-post.html</loc>
 <lastmod>2022-08-28T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -49,8 +49,12 @@
 <lastmod>2022-08-30T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://iconicshark3.github.io/ColinMills/markdown/2022/09/02/table.html</loc>
+<loc>https://iconicshark3.github.io/ColinMills/markdown/informal/2022/09/02/table.html</loc>
 <lastmod>2022-09-02T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://iconicshark3.github.io/ColinMills/markdown/2022/09/05/HTML-Hacks.html</loc>
+<lastmod>2022-09-05T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>https://iconicshark3.github.io/ColinMills/about/</loc>
