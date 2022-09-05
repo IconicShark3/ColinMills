@@ -154,8 +154,8 @@ window.onload = wrap_img;
 <span class="p">})</span>
 
 <span class="n">InfoDb</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-    <span class="s2">&quot;Firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;Colin&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;Lastname&quot;</span><span class="p">:</span> <span class="s2">&quot;Mills&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;FirstName&quot;</span><span class="p">:</span> <span class="s2">&quot;Colin&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;LastName&quot;</span><span class="p">:</span> <span class="s2">&quot;Mills&quot;</span><span class="p">,</span>
     <span class="s2">&quot;DOB&quot;</span><span class="p">:</span> <span class="s2">&quot;February 15&quot;</span><span class="p">,</span>
     <span class="s2">&quot;Residence&quot;</span><span class="p">:</span> <span class="s2">&quot;Poway&quot;</span><span class="p">,</span>
     <span class="s2">&quot;Email&quot;</span><span class="p">:</span> <span class="s2">&quot;colinm03478@stu.powayusd.com&quot;</span><span class="p">,</span>
@@ -163,22 +163,29 @@ window.onload = wrap_img;
 <span class="p">})</span>
 
 <span class="n">InfoDb</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-    <span class="s2">&quot;Firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;Azeem&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;Lastname&quot;</span><span class="p">:</span> <span class="s2">&quot;Mills&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;DOB&quot;</span><span class="p">:</span> <span class="s2">&quot;February 15&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;Residence&quot;</span><span class="p">:</span> <span class="s2">&quot;Poway&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;Email&quot;</span><span class="p">:</span> <span class="s2">&quot;colinm03478@stu.powayusd.com&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;Owns_Cars&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;2005-Accord&quot;</span><span class="p">]</span>
+    <span class="s2">&quot;FirstName&quot;</span><span class="p">:</span> <span class="s2">&quot;Azeem&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;LastName&quot;</span><span class="p">:</span> <span class="s2">&quot;NA&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;DOB&quot;</span><span class="p">:</span> <span class="s2">&quot;NA&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Residence&quot;</span><span class="p">:</span> <span class="s2">&quot;NA&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Email&quot;</span><span class="p">:</span> <span class="s2">&quot;NA&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Owns_Cars&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Nissan-Leaf&quot;</span><span class="p">]</span>
 <span class="p">})</span>
 <span class="c1"># Print the data structure</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">InfoDb</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">print_data</span><span class="p">(</span><span class="n">d_rec</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;FirstName&quot;</span><span class="p">],</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;LastName&quot;</span><span class="p">])</span>  <span class="c1"># using comma puts space between values</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Residence:&quot;</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;Residence&quot;</span><span class="p">])</span> <span class="c1"># \t is a tab indent</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Birth Day:&quot;</span><span class="p">,</span> <span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;DOB&quot;</span><span class="p">])</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Cars: &quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>  <span class="c1"># end=&quot;&quot; make sure no return occurs</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">d_rec</span><span class="p">[</span><span class="s2">&quot;Owns_Cars&quot;</span><span class="p">]))</span>  <span class="c1"># join allows printing a string list with separator</span>
+<span class="n">values</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">InfoDb</span><span class="p">:</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Values For:&quot;</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="n">InfoDb</span><span class="p">[</span><span class="n">values</span><span class="p">][</span><span class="s1">&#39;FirstName&#39;</span><span class="p">])</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Lastname:&quot;</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="n">InfoDb</span><span class="p">[</span><span class="n">values</span><span class="p">][</span><span class="s1">&#39;LastName&#39;</span><span class="p">])</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Owns Cars:&quot;</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="n">InfoDb</span><span class="p">[</span><span class="n">values</span><span class="p">][</span><span class="s1">&#39;Owns_Cars&#39;</span><span class="p">])</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Email:&quot;</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="n">InfoDb</span><span class="p">[</span><span class="n">values</span><span class="p">][</span><span class="s1">&#39;Email&#39;</span><span class="p">])</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Residence:&quot;</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="n">InfoDb</span><span class="p">[</span><span class="n">values</span><span class="p">][</span><span class="s1">&#39;Residence&#39;</span><span class="p">])</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Birth Date:&quot;</span><span class="p">)</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="n">InfoDb</span><span class="p">[</span><span class="n">values</span><span class="p">][</span><span class="s1">&#39;DOB&#39;</span><span class="p">])</span>
+    <span class="n">values</span> <span class="o">+=</span> <span class="mi">1</span>
     <span class="nb">print</span><span class="p">()</span>
 </pre></div>
 
@@ -192,7 +199,58 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[{&#39;FirstName&#39;: &#39;John&#39;, &#39;LastName&#39;: &#39;Mortensen&#39;, &#39;DOB&#39;: &#39;October 21&#39;, &#39;Residence&#39;: &#39;San Diego&#39;, &#39;Email&#39;: &#39;jmortensen@powayusd.com&#39;, &#39;Owns_Cars&#39;: [&#39;2015-Fusion&#39;, &#39;2011-Ranger&#39;, &#39;2003-Excursion&#39;, &#39;1997-F350&#39;, &#39;1969-Cadillac&#39;]}, {&#39;FirstName&#39;: &#39;Sunny&#39;, &#39;LastName&#39;: &#39;Naidu&#39;, &#39;DOB&#39;: &#39;August 2&#39;, &#39;Residence&#39;: &#39;Temecula&#39;, &#39;Email&#39;: &#39;snaidu@powayusd.com&#39;, &#39;Owns_Cars&#39;: [&#39;4Runner&#39;]}, {&#39;Firstname&#39;: &#39;Colin&#39;, &#39;Lastname&#39;: &#39;Mills&#39;, &#39;DOB&#39;: &#39;February 15&#39;, &#39;Residence&#39;: &#39;Poway&#39;, &#39;Email&#39;: &#39;colinm02378@stu.powayusd.com&#39;, &#39;Owns_Cars&#39;: [&#39;2005-Accord&#39;]}]
+<pre>Values For:
+John
+Lastname:
+Mortensen
+Owns Cars:
+[&#39;2015-Fusion&#39;, &#39;2011-Ranger&#39;, &#39;2003-Excursion&#39;, &#39;1997-F350&#39;, &#39;1969-Cadillac&#39;]
+Email:
+jmortensen@powayusd.com
+Residence:
+San Diego
+Birth Date:
+October 21
+
+Values For:
+Sunny
+Lastname:
+Naidu
+Owns Cars:
+[&#39;4Runner&#39;]
+Email:
+snaidu@powayusd.com
+Residence:
+Temecula
+Birth Date:
+August 2
+
+Values For:
+Colin
+Lastname:
+Mills
+Owns Cars:
+[&#39;2005-Accord&#39;]
+Email:
+colinm03478@stu.powayusd.com
+Residence:
+Poway
+Birth Date:
+February 15
+
+Values For:
+Azeem
+Lastname:
+NA
+Owns Cars:
+[&#39;Nissan-Leaf&#39;]
+Email:
+NA
+Residence:
+NA
+Birth Date:
+NA
+
 </pre>
 </div>
 </div>
