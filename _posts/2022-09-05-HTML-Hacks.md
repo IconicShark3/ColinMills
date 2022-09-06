@@ -9,6 +9,8 @@ title: Wk2 HTML hacks
 
 ![]({{site.baseurl}}/images/2022-09-01.png)
 
+I found that a regular issue with remote themes is a lack of pages and other extended features. Many external links did not embed such as my socials.
+
 ## Table Usage
 
 [Weekly Table](https://iconicshark3.github.io/ColinMills/weekly/)
