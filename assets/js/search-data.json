@@ -246,9 +246,20 @@
   
 
   
+      ,"page7": {
+          "title": "Backlog",
+          "content": "This serves as How I got a 5! Hacks . Sprint Backlog . |Education Zone|Create Task Ideas|Blogging &amp; Review| |—|—|—| |Take Notes|More than a simple quiz|Write down Pseudocode| |Try your best on quizzes and tests|A game|Blog experiences and findings| ||A useful tool|| .",
+          "url": "https://iconicshark3.github.io/ColinMills/backlog/",
+          "relUrl": "/backlog/",
+          "date": ""
+      }
+      
+  
 
   
-      ,"page8": {
+
+  
+      ,"page9": {
           "title": "Vocabulary!",
           "content": "Vocabulary! .",
           "url": "https://iconicshark3.github.io/ColinMills/vocabulary/",
@@ -259,9 +270,9 @@
   
 
   
-      ,"page9": {
+      ,"page10": {
           "title": "Weekly Work",
-          "content": "Week Number Hacks . Wk 0 | Hacks Wk1 | . Wk I | Hacks Wk2 | . Wk II | HTML Hacks - Dictionary Hacks | . Wk III | AppLab Hacks - Create-Task Hacks | .",
+          "content": "Week Number Hacks . Wk 0 | Hacks Wk1 | . Wk I | Hacks Wk2 | . Wk II | HTML Hacks - Dictionary Hacks | . Wk III | AppLab Hacks - Create-Task Hacks - HIGA5! Hacks | .",
           "url": "https://iconicshark3.github.io/ColinMills/weekly/",
           "relUrl": "/weekly/",
           "date": ""
@@ -281,7 +292,7 @@
   
 
   
-      ,"page14": {
+      ,"page15": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://iconicshark3.github.io/ColinMills/robots.txt",
