@@ -5,4 +5,4 @@ permalink: /vocabulary/
 ---
 # Vocabulary!
 
-- Hello : A simple greeting
+- Hello : A simple positive greeting
