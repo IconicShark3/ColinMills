@@ -15,7 +15,7 @@ title: Wk4 Habits Hacks
 ## Note of gratitude
 I would like to express grattitude for Varalu because he has helped me immensely in this calss and is a great person to work with in robotics.
 
-## [Gratitude List]()
+## [Gratitude List](https://iconicshark3.github.io/ColinMills/grat/)
 
 ## Goals
 - Recieve an A or higher in all classes this trimester
