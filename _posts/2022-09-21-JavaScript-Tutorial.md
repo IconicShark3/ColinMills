@@ -14,6 +14,30 @@ layout: notebook
 
 <div class="container" id="notebook-container">
         
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">hello</span><span class="p">)</span>
+
+<span class="c1">//this wont output because the kernel wont load and i cant fix it</span>
+
+<span class="nx">hello</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">ScreamsOfAgony</span><span class="p">){</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">ScreamsOfAgony</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nx">hello</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 </div>
  
 
