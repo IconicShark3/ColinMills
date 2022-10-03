@@ -19,6 +19,6 @@ Acknowledge code segments used from other sources and include origin and author 
 Program documentation is a written description of the function of a code segment, event, procedure, or program, and how it was developed. Comments can be made in a programming language as a form of documentation. Not all programming environments support comments, so other methods of documentation may be required. Programmers should document a program throughout its development this in developing and maintaining correct programs. Create a program documentation to describe overall program and list program specs. In the beginning you should list specifications. During Development keep track of progress and at the end explain your overall process. Documenting throughout the programming can improve efficiency and the programmers’ response to bugs.
 
 ## Proof of quiz thingy
-!({{site.baseurl}}/images/ihatethisclassandeveryoneandeverything.png)
+!({{site.baseurl}}/images/aaaah.png)
 
 [Group Hacks - Azeem](https://azeem-khan1.github.io/fastpages-project/hacks/programdesign_1-3)
