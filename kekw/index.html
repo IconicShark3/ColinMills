@@ -150,6 +150,101 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-javascript"><pre><span></span><span class="kr">const</span> <span class="nx">request</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'request'</span><span class="p">);</span>
+
+<span class="kr">const</span> <span class="nx">options</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="nx">method</span><span class="o">:</span> <span class="s1">'GET'</span><span class="p">,</span>
+  <span class="nx">url</span><span class="o">:</span> <span class="s1">'https://burgers1.p.rapidapi.com/burgers'</span><span class="p">,</span>
+  <span class="nx">headers</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s1">'X-RapidAPI-Key'</span><span class="o">:</span> <span class="s1">'ea2de0ecb0mshbe614a83d8b9057p1a6503jsn18142cf52431'</span><span class="p">,</span>
+    <span class="s1">'X-RapidAPI-Host'</span><span class="o">:</span> <span class="s1">'burgers1.p.rapidapi.com'</span><span class="p">,</span>
+    <span class="nx">useQueryString</span><span class="o">:</span> <span class="kc">true</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+
+<span class="nx">request</span><span class="p">(</span><span class="nx">options</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">response</span><span class="p">,</span> <span class="nx">body</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="nx">error</span><span class="p">);</span>
+
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">body</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">Failed to start the Kernel. 
+</span>
+<span class="ansi-red-intense-fg ansi-bold">node:internal/modules/cjs/loader:1203
+</span>
+<span class="ansi-red-intense-fg ansi-bold">  return process.dlopen(module, path.toNamespacedPath(filename));
+</span>
+<span class="ansi-red-intense-fg ansi-bold">                 ^
+</span>
+<span class="ansi-red-intense-fg ansi-bold">
+</span>
+<span class="ansi-red-intense-fg ansi-bold">Error: The module '/home/colinmills/anaconda3/lib/node_modules/ijavascript/node_modules/zeromq/build/Release/zmq.node'
+</span>
+<span class="ansi-red-intense-fg ansi-bold">was compiled against a different Node.js version using
+</span>
+<span class="ansi-red-intense-fg ansi-bold">NODE_MODULE_VERSION 48. This version of Node.js requires
+</span>
+<span class="ansi-red-intense-fg ansi-bold">NODE_MODULE_VERSION 108. Please try re-compiling or re-installing
+</span>
+<span class="ansi-red-intense-fg ansi-bold">the module (for instance, using `npm rebuild` or `npm install`).
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at Module._extensions..node (node:internal/modules/cjs/loader:1203:18)
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at Module.load (node:internal/modules/cjs/loader:997:32)
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at Module._load (node:internal/modules/cjs/loader:838:12)
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at Module.require (node:internal/modules/cjs/loader:1021:19)
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at require (node:internal/modules/cjs/helpers:103:18)
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at load (/home/colinmills/anaconda3/lib/node_modules/ijavascript/node_modules/node-gyp-build/index.js:22:10)
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at Object.&lt;anonymous&gt; (/home/colinmills/anaconda3/lib/node_modules/ijavascript/node_modules/zeromq/binding.js:1:43)
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+</span>
+<span class="ansi-red-intense-fg ansi-bold">    at Module.load (node:internal/modules/cjs/loader:997:32) {
+</span>
+<span class="ansi-red-intense-fg ansi-bold">  code: 'ERR_DLOPEN_FAILED'
+</span>
+<span class="ansi-red-intense-fg ansi-bold">}
+</span>
+<span class="ansi-red-intense-fg ansi-bold">
+</span>
+<span class="ansi-red-intense-fg ansi-bold">Node.js v18.9.0. 
+</span>
+<span class="ansi-red-intense-fg ansi-bold">View Jupyter &lt;a href='command:jupyter.viewOutput'&gt;log&lt;/a&gt; for further details.</span></pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 
