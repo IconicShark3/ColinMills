@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "API STUFF",
-            "content": "import requests import PIL from PIL import Image import urllib.request url = &quot;https://programming-memes-reddit.p.rapidapi.com/&quot; headers = { &quot;X-RapidAPI-Key&quot;: &quot;721c8e8789msh4f6199095fcff35p13f037jsnc1e7998c8457&quot;, &quot;X-RapidAPI-Host&quot;: &quot;programming-memes-reddit.p.rapidapi.com&quot; } response = requests.request(&quot;GET&quot;, url, headers=headers) js = response.json() ind = 0 for r in js: if ind &gt; 10: break urllib.request.urlretrieve(r[&#39;link&#39;],&quot;img.png&quot;) img = Image.open(&#39;img.png&#39;) display(img) ind += 1 https://rapidapi.com/60vibhavsurve/api/programming-memes-reddit/ .",
+            "content": "import requests import PIL from PIL import Image import urllib.request url = &quot;https://programming-memes-reddit.p.rapidapi.com/&quot; headers = { &quot;X-RapidAPI-Key&quot;: &quot;ea2de0ecb0mshbe614a83d8b9057p1a6503jsn18142cf52431&quot;, &quot;X-RapidAPI-Host&quot;: &quot;programming-memes-reddit.p.rapidapi.com&quot; } response = requests.request(&quot;GET&quot;, url, headers=headers) js = response.json() ind = 0 for r in js: if ind &gt; 10: break urllib.request.urlretrieve(r[&#39;link&#39;],&quot;img.png&quot;) img = Image.open(&#39;img.png&#39;) display(img) ind += 1 .",
             "url": "https://iconicshark3.github.io/ColinMills/2022/10/09/APIhate-this-class.html",
             "relUrl": "/2022/10/09/APIhate-this-class.html",
             "date": " • Oct 9, 2022"
