@@ -6,8 +6,4 @@ categories: [markdown, informal]
 tags: [informal]
 title: An Image Post
 ---
-# I WILL
-
-![]({{site.baseurl}}/images/sadgeic.png)
-
-# BOTTOM TEXT
+![]({{site.baseurl}}/images/BadScore.png)
