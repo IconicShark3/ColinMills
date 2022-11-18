@@ -38,9 +38,11 @@ baseurl: "/ColinMills" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
-  social_links:
-    github: IconicShark3
-    instagram: toomanycolinmills
+  skin: dark
+  #  social_links:
+  #    twitter: NighthawkCoding
+  #    github: nighthawkcoders
+  #   youtube_channel: UClIKOsDS5dsfzFA3zveDT3Q
 
 # Set this to true to get LaTeX math equation support
 use_math: 
