@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://iconicshark3.github.io/ColinMills/markdown/informal/2020/01/14/test-markdown-post.html</loc>
-<lastmod>2020-01-14T00:00:00-06:00</lastmod>
-</url>
-<url>
-<loc>https://iconicshark3.github.io/ColinMills/jupyter/2020/02/20/test.html</loc>
-<lastmod>2020-02-20T00:00:00-06:00</lastmod>
-</url>
-<url>
 <loc>https://iconicshark3.github.io/ColinMills/markdown/2022/08/02/deploy.html</loc>
 <lastmod>2022-08-02T00:00:00-05:00</lastmod>
 </url>
@@ -145,8 +137,8 @@
 <lastmod>2022-11-06T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://iconicshark3.github.io/ColinMills/2022/11/09/whatever.html</loc>
-<lastmod>2022-11-09T00:00:00-06:00</lastmod>
+<loc>https://iconicshark3.github.io/ColinMills/2022/11/17/whatever.html</loc>
+<lastmod>2022-11-17T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://iconicshark3.github.io/ColinMills/about/</loc>
