@@ -10,5 +10,5 @@ title: Grades Table
 |[3.5-3.7](https://iconicshark3.github.io/ColinMills/week%2013/2022/11/30/homework.html)|.95/1|
 |[3.8,3.10](https://iconicshark3.github.io/ColinMills/2022/11/26/listanditerationhomework.html)|.85/1|
 |[3.9,3.11](https://iconicshark3.github.io/ColinMills/2022/12/07/homework.html)|TBD|
-|[3._-3._]()|TBD|
+|[3.12-3.13](https://iconicshark3.github.io/ColinMills/2022/12/08/notetemplate.html)|TBD|
 |[3._-3._]()|TBD|
