@@ -26,4 +26,6 @@ permalink: /vocabulary/
 |Heuristic Approach|When optimal solutions are inefficient, look for a possibly optimal solution that is more efficient|
 |Decidable Problem|A decision problem that has a clear solution that will always make a correct output|
 |Undecidable Problem|A decision problem with no solution that is not gaurenteed to produce the correct output|
+|Search|An algorithm that attempts to locate a value in a list|
+|Library|A downloadable package of functions that can be used|
 
