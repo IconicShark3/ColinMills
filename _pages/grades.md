@@ -13,7 +13,7 @@ title: Grades
 |[3.12-3.13](https://iconicshark3.github.io/ColinMills/2022/12/01/notetemplate.html)|.90/1|
 |[3.14-3.15](https://iconicshark3.github.io/ColinMills/week-13/big-idea-3/2022/12/03/libraries-hw.html)|.85/1|
 |[3.16](https://iconicshark3.github.io/ColinMills/2022/12/12/hw.html)|.85/1|
-|[3.17-3.18](https://www.youtube.com/watch?v=dQw4w9WgXcQ)|Our Lesson|
+|[3.17-3.18](https://henerystone.github.io/ws2/lesson)|Our Lesson|
 
 Extra Notes:
 [3.14](https://iconicshark3.github.io/ColinMills/2022/12/10/3.14-Libraries.html)
