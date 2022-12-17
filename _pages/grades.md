@@ -19,4 +19,4 @@ Extra Notes:
 [3.14](https://iconicshark3.github.io/ColinMills/2022/12/10/3.14-Libraries.html)
 [3.15](https://iconicshark3.github.io/ColinMills/week-13/big-idea-3/2022/12/01/StudentCopyRandomValues.html)
 [3.9 or 3.11](https://iconicshark3.github.io/ColinMills/2022/11/29/Developing-Algorithms.html)
-[]()
+[Vocabulary](https://iconicshark3.github.io/ColinMills/vocabulary/)
