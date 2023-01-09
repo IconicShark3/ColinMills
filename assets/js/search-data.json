@@ -4,9 +4,9 @@
         "post0": {
             "title": "Title",
             "content": "url = &quot;https://corona-virus-world-and-india-data.p.rapidapi.com/api_india_timeline&quot; headers = { &quot;X-RapidAPI-Key&quot;: &quot;ea2de0ecb0mshbe614a83d8b9057p1a6503jsn18142cf52431&quot;, &quot;X-RapidAPI-Host&quot;: &quot;corona-virus-world-and-india-data.p.rapidapi.com&quot; } response = requests.request(&quot;GET&quot;, url, headers=headers) print(response.text) .",
-            "url": "https://iconicshark3.github.io/ColinMills/2022/12/16/whatever.html",
-            "relUrl": "/2022/12/16/whatever.html",
-            "date": " • Dec 16, 2022"
+            "url": "https://iconicshark3.github.io/ColinMills/2023/01/08/whatever.html",
+            "relUrl": "/2023/01/08/whatever.html",
+            "date": " • Jan 8, 2023"
         }
         
     
