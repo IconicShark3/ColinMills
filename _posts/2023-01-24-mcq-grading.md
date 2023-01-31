@@ -22,4 +22,7 @@ Mistake:  Only selected one option on the two-select question. D would have been
 
 ## Q50 ASCII character with hexidecimal 
 
-Mistake: This question is hard and i need to study hexidecimal systems more.
+Mistake: This question is genuiney hard and I definitely need to study hexidecimal systems more.
+
+## Reflection
+I believe that I could have done better had I studied or payed more attention to the blantantly stated expectations on some of the questions. I definitely need to take another look at hexidecimal and refresh my memory.
