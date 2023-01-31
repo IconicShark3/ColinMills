@@ -7,16 +7,19 @@ layout: default
 ## Social Media
 Benefits:
 - Easy to keep up with friends that have moved to areas that are mostly inacessable.
+
 Harms:
 - Has brought social anxiety and similar disorders to an all time high.
 ## Video Games
 Benefits:
 - Stress relief that needs very little space. (Example: Sports take equipment and space)
+
 Harms:
 - Video Game addictions can be very serious and have harmful health impacts.
 ## Artificial Inteligence
 Benefits:
 - Drastically increases speed of complex problems.
+
 Harms:
 - Cheating in education settings is far easier.
 
