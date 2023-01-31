@@ -1,0 +1,25 @@
+---
+title: MCQ Hacks
+layout: default
+---
+
+# Corrections
+## Q8 - Laptops being borrowed from a school library
+
+Mistake: Only selected one option on the two-select question
+
+## Q13  - old enough to drive but not to vote
+
+Mistake: Option I does not work because it incorrectly handles 18 year olds. It lets 18 year olds through while the explanation states that they need to be under 18.
+
+## Q22 - Find average height of students
+
+Mistake: I included the chance of error by passing data between many hands when I should have expected an error free enviroment.
+
+## Q41 - Simulating election votes 
+
+Mistake:  Only selected one option on the two-select question. D would have been an equal answer as is looks for < 2/10
+
+## Q50 ASCII character with hexidecimal 
+
+Mistake: This question is hard and i need to study hexidecimal systems more.
