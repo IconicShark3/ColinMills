@@ -26,8 +26,10 @@ Harms:
 # 5.2
 ## How does someone empower themself in a digital world?
 - Self empowerment in the digital world can be done by focusing not on what you cannot do but to do what you can to be yourself.
+
 ## How does someone that is empowered help someone that is not empowered? Describe something you could do at Del Norte HS.
 - Helping to empower others in the digital world can be done by helping others achieve their goals, such as complementing another students work. 
+
 ## Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere? 
 - The biggest case of red tape in the digital world is actually in the physical world. Access to electronics and internet connected devices is not avalible to all people.
 
