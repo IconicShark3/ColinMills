@@ -40,3 +40,26 @@ Computing bias is an ongoing problem in the modern technical age. Computers are 
 # 5.4
 ## Using Crowdsourcing
 In my project this trimester, I will have a feature where users can input their own data into the system, allowing the platform to evolve without developer assistance. Users will be able to add their own ingredients to my measurement converter as the main CREATE function of my CRUD system.
+
+# 5.5
+
+### Creative Commons universal:
+Full public domain, everything is completely free to use.
+
+### MIT:
+Free use of code but able to publish closed versions that are not freely usable.
+
+### GPL:
+Free use of code but no ability to release closed versions.
+
+## Our Project
+I would use the MIT Licence because it allows the use of code freely and the making and distributing closed source versions.s
+
+# 5.6
+
+- Some of us have created password systems to keep individuals data safe.
+- I feel that I have been successful in limiing my persohnal exposure by making very little of my information public.
+- A good pasword has complexity, but also needs to be memorable.
+- Symmetryc encryption has the same system on both ends (encode and decode), while assymmetric has a different system on either end.
+- All of our projects have hash keys that are required to use and edit the code.
+- I was lucky to grow up with a father in cybersecurity as I have never fallen for a phishing scam.
