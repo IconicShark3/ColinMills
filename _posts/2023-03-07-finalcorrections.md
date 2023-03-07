@@ -1,7 +1,8 @@
+---
 toc: true
 layout: post
 title: Final 2 Corrections
-
+---
 |Question|My Answer|Correct Answer|Explanation|
 |---|---|---|---|
 |2 - Which of the following has the greatest potential for compromising a user’s personal privacy?|The user’s public key used for encryption|A group of cookies stored by the user’s Web browser|A public key is designed to be shared to allow for data transfer.|
