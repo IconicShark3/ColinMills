@@ -1,6 +1,6 @@
 ---
 title: Performance Task Grading Part Two Electric Boogaloo
-layout: default
+layout: base
 ---
 
 ## Submission 1

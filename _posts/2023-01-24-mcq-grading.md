@@ -1,6 +1,6 @@
 ---
 title: MCQ Hacks
-layout: default
+layout: base
 ---
 
 # Corrections

@@ -1,6 +1,6 @@
 ---
 title: Binary Math
-layout: default
+layout: base
 ---
 ## Submission 1
 

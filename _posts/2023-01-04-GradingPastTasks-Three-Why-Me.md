@@ -1,6 +1,6 @@
 ---
 title: Performance Task Grading Part Three
-layout: default
+layout: base
 ---
 
 ## Submission 1

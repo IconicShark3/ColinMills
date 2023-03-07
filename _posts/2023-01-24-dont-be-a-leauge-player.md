@@ -1,6 +1,6 @@
 ---
 title: Lesson Hacks 5.1 - Now
-layout: default
+layout: base
 ---
 
 # 5.1
