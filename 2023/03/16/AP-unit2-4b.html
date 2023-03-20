@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      6 min read
+      7 min read
     
 </span></p>
 
@@ -165,11 +165,15 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses PRAGMA statement to read schema.</p>
 </blockquote>
-<p>Describe Schema, here is resource <a href="https://www.sqlite.org/index.html">Resource</a>- What is a database schema?</p>
+<p>Describe Schema, here is resource <a href="https://www.sqlite.org/index.html">Resource</a>- What is a database schema?
+    the layout of a database written in code</p>
 <ul>
-<li>What is the purpose of identity Column in SQL database?</li>
-<li>What is the purpose of a primary key in SQL database?</li>
-<li>What are the Data Types in SQL table?</li>
+<li>What is the purpose of identity Column in SQL database?
+  An identity makes it easier to differentiate between users that share certain values.</li>
+<li>What is the purpose of a primary key in SQL database?
+  This column is used as a sort of master key to select user.</li>
+<li>What are the Data Types in SQL table?
+The most common data type in sql databases is string.</li>
 </ul>
 
 </div>
@@ -242,8 +246,10 @@ window.onload = wrap_img;
 <p>Uses SQL SELECT statement to read data</p>
 </blockquote>
 <ul>
-<li>What is a connection object?  After you google it, what do you think it does?</li>
-<li>Same for cursor object?</li>
+<li>What is a connection object?  After you google it, what do you think it does?
+It is used to create cursor objects that can manipulate data</li>
+<li>Same for cursor object?
+An object that can be used to target certain data in a database.</li>
 <li>Look at conn object and cursor object in VSCode debugger.  What attributes are in the object?</li>
 <li>Is "results" an object?  How do you know?</li>
 </ul>
@@ -469,8 +475,10 @@ window.onload = wrap_img;
 <blockquote>
 <p>Uses a delete function to remove a user based on a user input of the id.</p>
 <ul>
-<li>Is DELETE a dangerous operation?  Why?</li>
-<li>In the print statemements, what is the "f" and what does {uid} do?</li>
+<li>Is DELETE a dangerous operation?  Why?
+If delete is programmed incorrectly it can delete data without confirmation.</li>
+<li>In the print statemements, what is the "f" and what does {uid} do?
+the F makes it so that items in {} are formatted with the value in the brackets</li>
 </ul>
 </blockquote>
 
@@ -668,6 +676,15 @@ window.onload = wrap_img;
 </li>
 </ul>
 <p>Reference... <a href="https://www.sqlitetutorial.net/sqlite-python/creating-tables/">sqlite documentation</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I see procedural abstraction in the Create Update Read and Delete functions.</p>
+<p>Data abstraction is the whole purpose of using a database. Data is placed into lists/dictionaries and then into the database.</p>
 
 </div>
 </div>
