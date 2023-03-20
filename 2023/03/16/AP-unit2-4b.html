@@ -300,15 +300,13 @@ An object that can be used to target certain data in a database.</li>
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>(1, 'Thomas Edison', 'toby', 'sha256$emnmAqhZXtMKqQ8f$4cf572b1b9463d8a8ef5e9f26d28b58b51135e51c1999fd2ecff04a8e4fd9b88', '1847-02-11')
-(2, 'Nicholas Tesla', 'niko', 'sha256$BWkJINUztbZwOOIf$efba933e7f36f3aecf34bf77943897c12cc400bba729d5110521d9309b20b5ca', '2023-02-23')
-(3, 'Alexander Graham Bell', 'lex', 'sha256$z2LndQpSdVmTVkwZ$087ceb79896d9f05b3bc3309bc97f21814da28cfde7e90d9cabf6eb2d81fb440', '2023-02-23')
-(4, 'Eli Whitney', 'whit', 'sha256$e3jKjqXVXKoCMQsO$e05dc702436e071382582f3270c4a5b3f19f8c3f11d46b69c0a5a3f40fe44ec4', '2023-02-23')
-(5, 'John Mortensen', 'jm1021', 'sha256$3vr6s8bl6FyEsRSZ$fa0104dcef546567e6b5518288d5c46eb268dfacd49a54770702a7888525fdd4', '1959-10-21')
-(6, 'Indiana Jones', 'indi', 'sha256$AwEux8Ozy6taXcES$c8547587dc9b9677c6adc499a76a0d39380d7d6ec4e108e8a8f251483396ca34', '1920-10-21')
-(7, 'Marion Ravenwood', 'raven', 'sha256$eqe0JF8qdUMKZSPy$2b508570596aa2b4fc0dae664a38cebe893caa1753371458cbd03b1014a84062', '1921-10-21')
-(8, 'Colin Mills', 'col', 'sha256$nibcB3jS7hQGUgaU$a152800395d421683256c0745616ebb56d5c9c74dfdfbf46787c3fd6a05a7829', '2006-02-15')
-(9, 'NoThanks', 'No', 'insecurepassword', '0000-00-01')
+<pre>(1, 'Thomas Edison', 'toby', 'sha256$7u1R8QJFuQTH3o7T$cba502e7d62ddc74c4903836a047fc9a38e9bf8b172aff0a65c86701293b764f', '1847-02-11')
+(2, 'Nikola Tesla', 'niko', 'sha256$AvgY1RrkfGRcI1j2$e7875132812ffee4aa636c8503e51032ef82899fab5c6c4ef75df7501738d9b9', '2023-03-19')
+(3, 'Alexander Graham Bell', 'lex', 'sha256$HEJ2ucyTNBIaUzRM$d391f57e638ee80bb3c33d471ebd7733bad159676e7656311e26671294af918c', '2023-03-19')
+(4, 'Eli Whitney', 'whit', 'sha256$znocmAF0wuCLuWJf$3955b0a5b3b92893dda78160bc6ebca4e346394ceb6c4b47dd84fb7be20166b4', '2023-03-19')
+(5, 'Indiana Jones', 'indi', 'sha256$VR2I2gnGjGpN4VpP$b0bd65c3425fe9f4bff7053cbd9053a33448200604875aecb2bf93e68c6217cd', '1920-10-21')
+(6, 'Colin', 'cmills', 'sha256$ZlvC3laWvyU6OL4d$afaa022d3d957373200df0cb69f08c2956880b26e663cb78f65a5adf38b424ab', '2006-02-15')
+(7, 'NoName', 'tester', 'sha256$moJmsqRdMp4hr8vG$4098356378aea1a80ec864eba21ca2acf61037f125af2992d12decaf61bda4e6', '2023-03-19')
 </pre>
 </div>
 </div>
@@ -386,7 +384,7 @@ An object that can be used to target certain data in a database.</li>
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>A new user record No has been created
+<pre>A new user record 123 has been created
 </pre>
 </div>
 </div>
@@ -586,13 +584,23 @@ the F makes it so that items in {} are formatted with the value in the brackets<
 
 <div class="output_area">
 
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Traceback (most recent call last):
+  File "_pydevd_bundle/pydevd_cython.pyx", line 1078, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython.pyx", line 297, in _pydevd_bundle.pydevd_cython.PyDBFrame.do_wait_suspend
+  File "/home/cmills/anaconda3/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 1976, in do_wait_suspend
+    keep_suspended = self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread, frames_tracker)
+  File "/home/cmills/anaconda3/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 2011, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>A new user record gvhbjkl has been created
-(0, 'id', 'INTEGER', 1, None, 1)
-(1, '_name', 'VARCHAR(255)', 1, None, 0)
-(2, '_uid', 'VARCHAR(255)', 1, None, 0)
-(3, '_password', 'VARCHAR(255)', 1, None, 0)
-(4, '_dob', 'DATE', 0, None, 0)
+<pre>Perform Jupyter 'Run All' prior to starting menu
 </pre>
 </div>
 </div>
