@@ -307,6 +307,7 @@ An object that can be used to target certain data in a database.</li>
 (5, 'Indiana Jones', 'indi', 'sha256$VR2I2gnGjGpN4VpP$b0bd65c3425fe9f4bff7053cbd9053a33448200604875aecb2bf93e68c6217cd', '1920-10-21')
 (6, 'Colin', 'cmills', 'sha256$ZlvC3laWvyU6OL4d$afaa022d3d957373200df0cb69f08c2956880b26e663cb78f65a5adf38b424ab', '2006-02-15')
 (7, 'NoName', 'tester', 'sha256$moJmsqRdMp4hr8vG$4098356378aea1a80ec864eba21ca2acf61037f125af2992d12decaf61bda4e6', '2023-03-19')
+(8, 'colin', '123', '456', '2000-01-01')
 </pre>
 </div>
 </div>
@@ -384,7 +385,7 @@ An object that can be used to target certain data in a database.</li>
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>A new user record 123 has been created
+<pre>A new user record 12 has been created
 </pre>
 </div>
 </div>
@@ -584,23 +585,8 @@ the F makes it so that items in {} are formatted with the value in the brackets<
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>Traceback (most recent call last):
-  File "_pydevd_bundle/pydevd_cython.pyx", line 1078, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
-  File "_pydevd_bundle/pydevd_cython.pyx", line 297, in _pydevd_bundle.pydevd_cython.PyDBFrame.do_wait_suspend
-  File "/home/cmills/anaconda3/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 1976, in do_wait_suspend
-    keep_suspended = self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread, frames_tracker)
-  File "/home/cmills/anaconda3/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 2011, in _do_wait_suspend
-    time.sleep(0.01)
-KeyboardInterrupt
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Perform Jupyter 'Run All' prior to starting menu
+<pre>A new user record colinuid has been created
 </pre>
 </div>
 </div>
