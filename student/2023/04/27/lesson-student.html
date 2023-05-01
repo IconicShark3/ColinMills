@@ -82,7 +82,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      36 min read
+      37 min read
     
 </span></p>
 
@@ -1825,6 +1825,62 @@ Our quickSort algorithm consists of 2 procedures, a <code>partition()</code> pro
 </div>
 </div>
 </div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">partition</span><span class="p">(</span><span class="n">array</span><span class="p">,</span> <span class="n">low</span><span class="p">,</span> <span class="n">high</span><span class="p">):</span>
+    <span class="n">pivot</span> <span class="o">=</span> <span class="n">array</span><span class="p">[</span><span class="n">high</span><span class="p">]</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">low</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">low</span><span class="p">,</span> <span class="n">high</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">array</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">pivot</span><span class="p">:</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+            <span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">array</span><span class="p">[</span><span class="n">j</span><span class="p">])</span> <span class="o">=</span> <span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">array</span><span class="p">[</span><span class="n">high</span><span class="p">])</span> <span class="o">=</span> <span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">high</span><span class="p">],</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+    
+<span class="k">def</span> <span class="nf">quickSort</span><span class="p">(</span><span class="n">array</span><span class="p">,</span> <span class="n">low</span><span class="p">,</span> <span class="n">high</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">low</span> <span class="o">&lt;</span> <span class="n">high</span><span class="p">:</span>
+        <span class="n">pi</span> <span class="o">=</span> <span class="n">partition</span><span class="p">(</span><span class="n">array</span><span class="p">,</span> <span class="n">low</span><span class="p">,</span> <span class="n">high</span><span class="p">)</span>
+        <span class="n">quickSort</span><span class="p">(</span><span class="n">array</span><span class="p">,</span> <span class="n">low</span><span class="p">,</span> <span class="n">pi</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">quickSort</span><span class="p">(</span><span class="n">array</span><span class="p">,</span> <span class="n">pi</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">high</span><span class="p">)</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="o">-</span><span class="mi">32</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Unsorted Data"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">size</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">quickSort</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">size</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'Sorted Data'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Unsorted Data
+[1, -7, 4, 1, 10, 9, -32, 12, 8, 40, 17]
+Sorted Data
+[-32, -7, 1, 1, 4, 8, 9, 10, 12, 17, 40]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 

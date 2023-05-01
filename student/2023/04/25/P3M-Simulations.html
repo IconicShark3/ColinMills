@@ -82,7 +82,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      27 min read
+      30 min read
     
 </span></p>
 
@@ -4405,8 +4405,8 @@ Number of red: 142
 <span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
 <span class="n">vals</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="n">keys</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">cycles</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">16</span><span class="p">,</span><span class="mi">32</span><span class="p">,</span><span class="mi">64</span><span class="p">,</span><span class="mi">128</span><span class="p">,</span><span class="mi">256</span><span class="p">,</span><span class="mi">512</span><span class="p">]</span>
-<span class="n">sides</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">cycles</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">25</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">75</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">125</span><span class="p">,</span><span class="mi">150</span><span class="p">,</span><span class="mi">175</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">225</span><span class="p">,</span><span class="mi">250</span><span class="p">,</span><span class="mi">275</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">325</span><span class="p">,</span><span class="mi">350</span><span class="p">,</span><span class="mi">375</span><span class="p">,</span><span class="mi">400</span><span class="p">]</span>
+<span class="n">sides</span> <span class="o">=</span> <span class="mi">1000</span>
 <span class="k">def</span> <span class="nf">ADR</span><span class="p">(</span><span class="n">sides</span><span class="p">,</span><span class="n">times</span><span class="p">):</span>
     <span class="n">rolls</span> <span class="o">=</span> <span class="p">[]</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">times</span><span class="p">):</span>
@@ -4442,12 +4442,150 @@ Number of red: 142
 
 <div class="output_area">
 
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">KeyboardInterrupt</span>                         Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">/home/cmills/vscode/ColinMills/_notebooks/2023-04-25-P3M-Simulations.ipynb Cell 37</span> in <span class="ansi-cyan-fg">&lt;cell line: 26&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/cmills/vscode/ColinMills/_notebooks/2023-04-25-P3M-Simulations.ipynb#X51sdnNjb2RlLXJlbW90ZQ%3D%3D?line=23'&gt;24&lt;/a&gt;</span> plt.ylabel('Average Roll Across Simulated Cycles')
+<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/cmills/vscode/ColinMills/_notebooks/2023-04-25-P3M-Simulations.ipynb#X51sdnNjb2RlLXJlbW90ZQ%3D%3D?line=24'&gt;25&lt;/a&gt;</span> plt.title('Sample Size Importance')
+<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/cmills/vscode/ColinMills/_notebooks/2023-04-25-P3M-Simulations.ipynb#X51sdnNjb2RlLXJlbW90ZQ%3D%3D?line=25'&gt;26&lt;/a&gt;</span> plt.show()
 
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/matplotlib/pyplot.py:368</span>, in <span class="ansi-cyan-fg">show</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    324</span> """
+<span class="ansi-green-intense-fg ansi-bold">    325</span> Display all open figures.
+<span class="ansi-green-intense-fg ansi-bold">    326</span> 
+<span class="ansi-green-fg">   (...)</span>
+<span class="ansi-green-intense-fg ansi-bold">    365</span> explicitly there.
+<span class="ansi-green-intense-fg ansi-bold">    366</span> """
+<span class="ansi-green-intense-fg ansi-bold">    367</span> _warn_if_gui_out_of_main_thread()
+<span class="ansi-green-fg">--&gt; 368</span> return _backend_mod.show(*args, **kwargs)
 
-<div class="output_png output_subarea ">
-<img src="data:image/png;base64,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">
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/matplotlib_inline/backend_inline.py:41</span>, in <span class="ansi-cyan-fg">show</span><span class="ansi-blue-fg">(close, block)</span>
+<span class="ansi-green-intense-fg ansi-bold">     39</span> try:
+<span class="ansi-green-intense-fg ansi-bold">     40</span>     for figure_manager in Gcf.get_all_fig_managers():
+<span class="ansi-green-fg">---&gt; 41</span>         display(
+<span class="ansi-green-intense-fg ansi-bold">     42</span>             figure_manager.canvas.figure,
+<span class="ansi-green-intense-fg ansi-bold">     43</span>             metadata=_fetch_figure_metadata(figure_manager.canvas.figure)
+<span class="ansi-green-intense-fg ansi-bold">     44</span>         )
+<span class="ansi-green-intense-fg ansi-bold">     45</span> finally:
+<span class="ansi-green-intense-fg ansi-bold">     46</span>     show._to_draw = []
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/IPython/core/display_functions.py:298</span>, in <span class="ansi-cyan-fg">display</span><span class="ansi-blue-fg">(include, exclude, metadata, transient, display_id, raw, clear, *objs, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    296</span>     publish_display_data(data=obj, metadata=metadata, **kwargs)
+<span class="ansi-green-intense-fg ansi-bold">    297</span> else:
+<span class="ansi-green-fg">--&gt; 298</span>     format_dict, md_dict = format(obj, include=include, exclude=exclude)
+<span class="ansi-green-intense-fg ansi-bold">    299</span>     if not format_dict:
+<span class="ansi-green-intense-fg ansi-bold">    300</span>         # nothing to display (e.g. _ipython_display_ took over)
+<span class="ansi-green-intense-fg ansi-bold">    301</span>         continue
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/IPython/core/formatters.py:178</span>, in <span class="ansi-cyan-fg">DisplayFormatter.format</span><span class="ansi-blue-fg">(self, obj, include, exclude)</span>
+<span class="ansi-green-intense-fg ansi-bold">    176</span> md = None
+<span class="ansi-green-intense-fg ansi-bold">    177</span> try:
+<span class="ansi-green-fg">--&gt; 178</span>     data = formatter(obj)
+<span class="ansi-green-intense-fg ansi-bold">    179</span> except:
+<span class="ansi-green-intense-fg ansi-bold">    180</span>     # FIXME: log the exception
+<span class="ansi-green-intense-fg ansi-bold">    181</span>     raise
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/decorator.py:232</span>, in <span class="ansi-cyan-fg">decorate.&lt;locals&gt;.fun</span><span class="ansi-blue-fg">(*args, **kw)</span>
+<span class="ansi-green-intense-fg ansi-bold">    230</span> if not kwsyntax:
+<span class="ansi-green-intense-fg ansi-bold">    231</span>     args, kw = fix(args, kw, sig)
+<span class="ansi-green-fg">--&gt; 232</span> return caller(func, *(extras + args), **kw)
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/IPython/core/formatters.py:222</span>, in <span class="ansi-cyan-fg">catch_format_error</span><span class="ansi-blue-fg">(method, self, *args, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    220</span> """show traceback on failed format call"""
+<span class="ansi-green-intense-fg ansi-bold">    221</span> try:
+<span class="ansi-green-fg">--&gt; 222</span>     r = method(self, *args, **kwargs)
+<span class="ansi-green-intense-fg ansi-bold">    223</span> except NotImplementedError:
+<span class="ansi-green-intense-fg ansi-bold">    224</span>     # don't warn on NotImplementedErrors
+<span class="ansi-green-intense-fg ansi-bold">    225</span>     return self._check_return(None, args[0])
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/IPython/core/formatters.py:339</span>, in <span class="ansi-cyan-fg">BaseFormatter.__call__</span><span class="ansi-blue-fg">(self, obj)</span>
+<span class="ansi-green-intense-fg ansi-bold">    337</span>     pass
+<span class="ansi-green-intense-fg ansi-bold">    338</span> else:
+<span class="ansi-green-fg">--&gt; 339</span>     return printer(obj)
+<span class="ansi-green-intense-fg ansi-bold">    340</span> # Finally look for special method names
+<span class="ansi-green-intense-fg ansi-bold">    341</span> method = get_real_method(obj, self.print_method)
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/IPython/core/pylabtools.py:151</span>, in <span class="ansi-cyan-fg">print_figure</span><span class="ansi-blue-fg">(fig, fmt, bbox_inches, base64, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    148</span>     from matplotlib.backend_bases import FigureCanvasBase
+<span class="ansi-green-intense-fg ansi-bold">    149</span>     FigureCanvasBase(fig)
+<span class="ansi-green-fg">--&gt; 151</span> fig.canvas.print_figure(bytes_io, **kw)
+<span class="ansi-green-intense-fg ansi-bold">    152</span> data = bytes_io.getvalue()
+<span class="ansi-green-intense-fg ansi-bold">    153</span> if fmt == 'svg':
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/matplotlib/backend_bases.py:2299</span>, in <span class="ansi-cyan-fg">FigureCanvasBase.print_figure</span><span class="ansi-blue-fg">(self, filename, dpi, facecolor, edgecolor, orientation, format, bbox_inches, pad_inches, bbox_extra_artists, backend, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">   2297</span> if bbox_inches:
+<span class="ansi-green-intense-fg ansi-bold">   2298</span>     if bbox_inches == "tight":
+<span class="ansi-green-fg">-&gt; 2299</span>         bbox_inches = self.figure.get_tightbbox(
+<span class="ansi-green-intense-fg ansi-bold">   2300</span>             renderer, bbox_extra_artists=bbox_extra_artists)
+<span class="ansi-green-intense-fg ansi-bold">   2301</span>         if pad_inches is None:
+<span class="ansi-green-intense-fg ansi-bold">   2302</span>             pad_inches = rcParams['savefig.pad_inches']
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/matplotlib/figure.py:1632</span>, in <span class="ansi-cyan-fg">FigureBase.get_tightbbox</span><span class="ansi-blue-fg">(self, renderer, bbox_extra_artists)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1629</span>     artists = bbox_extra_artists
+<span class="ansi-green-intense-fg ansi-bold">   1631</span> for a in artists:
+<span class="ansi-green-fg">-&gt; 1632</span>     bbox = a.get_tightbbox(renderer)
+<span class="ansi-green-intense-fg ansi-bold">   1633</span>     if bbox is not None and (bbox.width != 0 or bbox.height != 0):
+<span class="ansi-green-intense-fg ansi-bold">   1634</span>         bb.append(bbox)
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/matplotlib/axes/_base.py:4628</span>, in <span class="ansi-cyan-fg">_AxesBase.get_tightbbox</span><span class="ansi-blue-fg">(self, renderer, call_axes_locator, bbox_extra_artists, for_layout_only)</span>
+<span class="ansi-green-intense-fg ansi-bold">   4626</span> if self.yaxis.get_visible():
+<span class="ansi-green-intense-fg ansi-bold">   4627</span>     try:
+<span class="ansi-green-fg">-&gt; 4628</span>         bb_yaxis = self.yaxis.get_tightbbox(
+<span class="ansi-green-intense-fg ansi-bold">   4629</span>             renderer, for_layout_only=for_layout_only)
+<span class="ansi-green-intense-fg ansi-bold">   4630</span>     except TypeError:
+<span class="ansi-green-intense-fg ansi-bold">   4631</span>         # in case downstream library has redefined axis:
+<span class="ansi-green-intense-fg ansi-bold">   4632</span>         bb_yaxis = self.yaxis.get_tightbbox(renderer)
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/matplotlib/axis.py:1138</span>, in <span class="ansi-cyan-fg">Axis.get_tightbbox</span><span class="ansi-blue-fg">(self, renderer, for_layout_only)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1135</span> bboxes = [b for b in bboxes
+<span class="ansi-green-intense-fg ansi-bold">   1136</span>           if 0 &lt; b.width &lt; np.inf and 0 &lt; b.height &lt; np.inf]
+<span class="ansi-green-intense-fg ansi-bold">   1137</span> if bboxes:
+<span class="ansi-green-fg">-&gt; 1138</span>     return mtransforms.Bbox.union(bboxes)
+<span class="ansi-green-intense-fg ansi-bold">   1139</span> else:
+<span class="ansi-green-intense-fg ansi-bold">   1140</span>     return None
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/matplotlib/transforms.py:670</span>, in <span class="ansi-cyan-fg">BboxBase.union</span><span class="ansi-blue-fg">(bboxes)</span>
+<span class="ansi-green-intense-fg ansi-bold">    668</span> x1 = np.max([bbox.xmax for bbox in bboxes])
+<span class="ansi-green-intense-fg ansi-bold">    669</span> y0 = np.min([bbox.ymin for bbox in bboxes])
+<span class="ansi-green-fg">--&gt; 670</span> y1 = np.max([bbox.ymax for bbox in bboxes])
+<span class="ansi-green-intense-fg ansi-bold">    671</span> return Bbox([[x0, y0], [x1, y1]])
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/matplotlib/transforms.py:670</span>, in <span class="ansi-cyan-fg">&lt;listcomp&gt;</span><span class="ansi-blue-fg">(.0)</span>
+<span class="ansi-green-intense-fg ansi-bold">    668</span> x1 = np.max([bbox.xmax for bbox in bboxes])
+<span class="ansi-green-intense-fg ansi-bold">    669</span> y0 = np.min([bbox.ymin for bbox in bboxes])
+<span class="ansi-green-fg">--&gt; 670</span> y1 = np.max([bbox.ymax for bbox in bboxes])
+<span class="ansi-green-intense-fg ansi-bold">    671</span> return Bbox([[x0, y0], [x1, y1]])
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/matplotlib/transforms.py:344</span>, in <span class="ansi-cyan-fg">BboxBase.ymax</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    341</span> @property
+<span class="ansi-green-intense-fg ansi-bold">    342</span> def ymax(self):
+<span class="ansi-green-intense-fg ansi-bold">    343</span>     """The top edge of the bounding box."""
+<span class="ansi-green-fg">--&gt; 344</span>     return np.max(self.get_points()[:, 1])
+
+File <span class="ansi-green-fg">&lt;__array_function__ internals&gt;:5</span>, in <span class="ansi-cyan-fg">amax</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2754</span>, in <span class="ansi-cyan-fg">amax</span><span class="ansi-blue-fg">(a, axis, out, keepdims, initial, where)</span>
+<span class="ansi-green-intense-fg ansi-bold">   2638</span> @array_function_dispatch(_amax_dispatcher)
+<span class="ansi-green-intense-fg ansi-bold">   2639</span> def amax(a, axis=None, out=None, keepdims=np._NoValue, initial=np._NoValue,
+<span class="ansi-green-intense-fg ansi-bold">   2640</span>          where=np._NoValue):
+<span class="ansi-green-intense-fg ansi-bold">   2641</span>     """
+<span class="ansi-green-intense-fg ansi-bold">   2642</span>     Return the maximum of an array or maximum along an axis.
+<span class="ansi-green-intense-fg ansi-bold">   2643</span> 
+<span class="ansi-green-fg">   (...)</span>
+<span class="ansi-green-intense-fg ansi-bold">   2752</span>     5
+<span class="ansi-green-intense-fg ansi-bold">   2753</span>     """
+<span class="ansi-green-fg">-&gt; 2754</span>     return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+<span class="ansi-green-intense-fg ansi-bold">   2755</span>                           keepdims=keepdims, initial=initial, where=where)
+
+File <span class="ansi-green-fg">~/anaconda3/lib/python3.9/site-packages/numpy/core/fromnumeric.py:86</span>, in <span class="ansi-cyan-fg">_wrapreduction</span><span class="ansi-blue-fg">(obj, ufunc, method, axis, dtype, out, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">     83</span>         else:
+<span class="ansi-green-intense-fg ansi-bold">     84</span>             return reduction(axis=axis, out=out, **passkwargs)
+<span class="ansi-green-fg">---&gt; 86</span> return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+
+<span class="ansi-red-fg">KeyboardInterrupt</span>: </pre>
 </div>
-
 </div>
 
 </div>
