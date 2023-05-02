@@ -26,15 +26,15 @@ List specification of your Computer, or Computers if working as Pair/Trio
 - OS: Windows 11 H22
 
 Define or describe usage of Computer using Computer Programs. Pictures are preferred over a lot of text.  Use your experience.
-- Input devices:
-- Output devices:
-- Program File:
-- Program Code:
-- Processes:
-- Ports:
-- Data File:
-- Inspect Running Code:
-- Inspect Variables:
+- Input devices: Allows for the user to interact with the system.(keyboard / mouse)
+- Output devices: Allows for the system to interact with the user. (monitor / speakers)
+- Program File: Execuatble file that is usable by a computer. (web browser / games)
+- Program Code: The code in a program that tells the computer what to do. (python / javascript / c++)
+- Processes: the use of a section of code. (search / sort)
+- Ports: An endpoint for in and outgoing internet traffic. (8000 / 25565)
+- Data File: A dile with a specific type of data and format.
+- Inspect Running Code: In a browser, right click and choose inspect to see the code that is constructing the website you are looking at
+- Inspect Variables: See the variables that are being used and what their values are. Useful for debugging.
 
 ### The Internet
 > Watch/review College Board Daily Video for 4.1.1
@@ -60,7 +60,13 @@ Define or describe usage of Computer using Computer Programs. Pictures are prefe
 > Watch/review College Board Daily Video 4.1.2
 
 - Complete True of False Questions
-
+T
+F
+F
+T
+F
+F
+T
 - Essential Knowledge
     - The internet is a computer network consisting of interconnected networks that use standardized, open (nonproprierary) communication protocols.
     - Access to the internet depends on the ability to connect a computing device to an internet connected device.
